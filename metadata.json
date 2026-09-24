@@ -1,0 +1,6 @@
+{
+  "name": "VIRAS VISA",
+  "description": "Exclusive U.S. and Canada legal immigration advisory portal with cinematic luxury experience in Persian RTL and multilingual formats.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

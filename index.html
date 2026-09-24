@@ -1,0 +1,1000 @@
+<!DOCTYPE html>
+<html class="dark" dir="ltr" lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>VIRAS VISA — Cinematic Gateway to North America | U.S. & Canada Immigration</title>
+  <meta name="description" content="VIRAS VISA — Exclusive legal immigration advisory portal for elite talents, investors, founders, and executives migrating to the United States and Canada.">
+  <meta property="og:title" content="VIRAS VISA — U.S. & Canada Immigration Gateway">
+  <meta property="og:description" content="Accredited legal immigration advisory for the United States and Canada.">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <!-- Google Fonts: Plus Jakarta Sans for Latin, Vazirmatn for Persian/Arabic, Cinzel for luxury accents -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Vazirmatn:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+            display: ['"Plus Jakarta Sans"', 'sans-serif'],
+            serif: ['Cinzel', 'serif'],
+            rtl: ['"Vazirmatn"', '"Plus Jakarta Sans"', 'system-ui', 'Tahoma', 'Arial', 'sans-serif']
+          },
+          colors: {
+            vira: {
+              gold: '#D4AF37',
+              goldLight: '#F3E5AB',
+              goldMuted: '#C5A059',
+              goldDark: '#8A6418',
+              silver: '#E2E8F0',
+              silverLight: '#F8FAFC',
+              silverMuted: '#94A3B8',
+              obsidian: '#07080A',
+              charcoal: '#0F1115',
+              surface: 'rgba(18, 20, 24, 0.72)'
+            }
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Local Standalone Stylesheet -->
+  <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body class="relative flex flex-col justify-between w-screen min-h-screen overflow-x-hidden bg-[#07080A] text-slate-100 selection:bg-[#D4AF37]/20 selection:text-white">
+
+  <!-- Atmospheric Lighting & Fog -->
+  <div class="cinematic-vignette fixed inset-0 z-10 pointer-events-none"></div>
+  <div class="light-cone fixed top-0 left-1/2 -translate-x-1/2 w-[120vw] h-[80vh] z-10 pointer-events-none"></div>
+
+  <!-- Background Canvas & Migration Pathways -->
+  <div class="fixed inset-0 z-0 overflow-hidden pointer-events-none" id="cinematic-bg-container">
+    <!-- Deep Layer: Global Horizon Silhouette & Flight Vector Grid -->
+    <div class="absolute inset-[-5%] w-[110%] h-[110%] opacity-20 mix-blend-screen bg-cover bg-center transition-transform duration-700 ease-out" id="bg-layer-deep" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAdb5ZD-Xi_J85D0avGBx6qD0-RsozUPK5hZkn4FYzZceVs-3mIbtIfeHW3TB95xrsGiOO03nPR-F96C7mCn-NQESAOPebVk_mL8VmFUY4A0P4mPEuiWzbsBFDoQbxNFQulPcM6Vl4V4Lba0mQTH6A2VG8aISqKj28_O2wGDO0cnyTcTvB9Lw6K5wUezyAZL0fizu5cR3p4YbF1xj1tUx88mx87Tcl_7Ynh6nMSV0uaJ1BHXP_tz35xmg'); filter: grayscale(100%) contrast(160%) brightness(24%);"></div>
+
+    <!-- Architectural Horizon Silhouettes (Manhattan/Capitol Left, Toronto CN Tower Right) -->
+    <div class="absolute bottom-0 left-0 right-0 h-[48vh] z-1 pointer-events-none flex items-end justify-between px-2 sm:px-8 opacity-10">
+      <!-- Left: US Horizon -->
+      <svg class="h-full w-auto max-w-[45vw] text-slate-300" fill="currentColor" preserveAspectRatio="xMinYMax meet" viewBox="0 0 600 240">
+        <path d="M0,240 L30,240 L30,190 L45,190 L45,240 L70,240 L70,160 L85,140 L100,160 L100,240 L130,240 L130,110 L145,95 L160,110 L160,240 L190,240 L190,70 L195,50 L200,40 L205,50 L210,70 L210,240 L240,240 L240,140 L255,140 L255,240 L290,240 L290,175 L305,160 L320,175 L320,240 L360,240 L360,130 L380,110 L400,130 L400,240 L440,240 L440,185 L460,185 L460,240 L520,240 L520,200 L540,200 L540,240 L600,240 Z" opacity="0.35"></path>
+        <path d="M40,240 L60,240 L60,180 L80,180 L80,240 L110,240 L110,130 L125,115 L140,130 L140,240 L180,240 L180,95 L190,85 L200,95 L200,240 L230,240 L230,155 L250,155 L250,240 L310,240 L310,145 L330,130 L350,145 L350,240 L420,240 L420,160 L450,160 L450,240 Z" opacity="0.5"></path>
+      </svg>
+      <!-- Right: Canadian Horizon -->
+      <svg class="h-full w-auto max-w-[45vw] text-slate-300" fill="currentColor" preserveAspectRatio="xMaxYMax meet" viewBox="0 0 600 240">
+        <path d="M60,240 L60,195 L80,195 L80,240 L120,240 L120,150 L140,150 L140,240 L190,240 L190,170 L210,170 L210,240 L280,240 L280,120 L300,105 L320,120 L320,240 L395,240 L398,80 L390,75 L390,65 L398,60 L399,10 L401,10 L402,60 L410,65 L410,75 L402,80 L405,240 L470,240 L470,160 L490,160 L490,240 L540,240 L540,180 L560,180 L560,240 L600,240 Z" opacity="0.5"></path>
+      </svg>
+    </div>
+
+    <!-- Live Aviation Migration Layer (Jets with Contrails) -->
+    <div class="absolute inset-0 pointer-events-none z-1 overflow-hidden select-none" id="aviation-migration-layer">
+      <!-- Primary Trans-Continental Flight Corridor -->
+      <div class="jet-stream-primary absolute top-0 left-0 flex items-center">
+        <div class="w-96 md:w-[480px] h-[3px] bg-gradient-to-r from-transparent via-[#E5C158]/35 to-white/90 rounded-full blur-[0.6px] -mr-1.5 animate-pulse"></div>
+        <svg class="w-10 h-10 md:w-12 md:h-12 text-white drop-shadow-[0_0_10px_rgba(255,255,255,0.85)] transform rotate-90 origin-center" fill="currentColor" viewBox="0 0 24 24">
+          <path d="M21 16v-2l-8-5V3.5c0-.83-.67-1.5-1.5-1.5S10 2.67 10 3.5V9l-8 5v2l8-2.5V19l-2 1.5V22l3.5-1 3.5 1v-1.5L13 19v-5.5l8 2.5z"></path>
+        </svg>
+      </div>
+
+      <!-- Secondary Northbound Route -->
+      <div class="jet-stream-secondary absolute top-0 left-0 flex items-center">
+        <div class="w-72 md:w-96 h-[2px] bg-gradient-to-r from-transparent via-white/30 to-white/75 rounded-full blur-[0.5px] -mr-1.5"></div>
+        <svg class="w-8 h-8 text-white/90 drop-shadow-[0_0_8px_rgba(229,193,88,0.7)] transform rotate-90 origin-center" fill="currentColor" viewBox="0 0 24 24">
+          <path d="M21 16v-2l-8-5V3.5c0-.83-.67-1.5-1.5-1.5S10 2.67 10 3.5V9l-8 5v2l8-2.5V19l-2 1.5V22l3.5-1 3.5 1v-1.5L13 19v-5.5l8 2.5z"></path>
+        </svg>
+      </div>
+
+      <!-- Tertiary Pacific Gateway Corridor -->
+      <div class="jet-stream-tertiary absolute top-0 left-0 flex items-center">
+        <div class="w-56 md:w-80 h-[1.5px] bg-gradient-to-r from-transparent via-[#F3E5AB]/25 to-white/60 rounded-full blur-[0.4px] -mr-1.5"></div>
+        <svg class="w-6 h-6 text-white/70 drop-shadow-[0_0_6px_rgba(255,255,255,0.6)] transform rotate-90 origin-center" fill="currentColor" viewBox="0 0 24 24">
+          <path d="M21 16v-2l-8-5V3.5c0-.83-.67-1.5-1.5-1.5S10 2.67 10 3.5V9l-8 5v2l8-2.5V19l-2 1.5V22l3.5-1 3.5 1v-1.5L13 19v-5.5l8 2.5z"></path>
+        </svg>
+      </div>
+    </div>
+
+    <!-- Navigational Reticles, Compass Rose & Geodetic Arcs -->
+    <svg class="absolute inset-0 w-full h-full pointer-events-none z-2" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <linearGradient id="goldFlightGrad1" x1="0%" x2="100%" y1="100%" y2="0%">
+          <stop offset="0%" stop-color="#D4AF37" stop-opacity="0.02"></stop>
+          <stop offset="50%" stop-color="#F3E5AB" stop-opacity="0.32"></stop>
+          <stop offset="100%" stop-color="#D4AF37" stop-opacity="0.08"></stop>
+        </linearGradient>
+        <linearGradient id="goldFlightGrad2" x1="100%" x2="0%" y1="100%" y2="0%">
+          <stop offset="0%" stop-color="#C5A059" stop-opacity="0.03"></stop>
+          <stop offset="60%" stop-color="#F3E5AB" stop-opacity="0.25"></stop>
+          <stop offset="100%" stop-color="#AA771C" stop-opacity="0.05"></stop>
+        </linearGradient>
+      </defs>
+
+      <!-- Global Compass Rose Reticle -->
+      <g class="spin-slow origin-[85%_18%]" opacity="0.22">
+        <circle cx="85%" cy="18%" fill="none" r="140" stroke="#D4AF37" stroke-dasharray="2 6" stroke-width="0.75"></circle>
+        <circle cx="85%" cy="18%" fill="none" r="115" stroke="#E2E8F0" stroke-opacity="0.3" stroke-width="0.5"></circle>
+        <circle cx="85%" cy="18%" fill="none" r="90" stroke="#D4AF37" stroke-dasharray="12 4 2 4" stroke-width="0.5"></circle>
+        <circle cx="85%" cy="18%" fill="#E5C158" r="4"></circle>
+        <line stroke="#D4AF37" stroke-dasharray="4 4" stroke-opacity="0.5" stroke-width="0.5" x1="85%" x2="85%" y1="2%" y2="34%"></line>
+        <line stroke="#D4AF37" stroke-dasharray="4 4" stroke-opacity="0.5" stroke-width="0.5" x1="72%" x2="98%" y1="18%" y2="18%"></line>
+      </g>
+
+      <!-- Global Navigational Reticle -->
+      <g class="spin-reverse-slow origin-[14%_80%]" opacity="0.18">
+        <circle cx="14%" cy="80%" fill="none" r="120" stroke="#D4AF37" stroke-dasharray="3 8" stroke-width="0.6"></circle>
+        <circle cx="14%" cy="80%" fill="none" r="95" stroke="#CBD5E1" stroke-opacity="0.4" stroke-width="0.5"></circle>
+        <circle cx="14%" cy="80%" fill="#F3E5AB" r="2"></circle>
+        <line stroke="#D4AF37" stroke-dasharray="3 3" stroke-width="0.5" x1="14%" x2="14%" y1="65%" y2="95%"></line>
+        <line stroke="#D4AF37" stroke-dasharray="3 3" stroke-width="0.5" x1="4%" x2="24%" y1="80%" y2="80%"></line>
+      </g>
+
+      <!-- Geodetic Migration Flight Arcs -->
+      <path class="migration-arc" d="M 50,650 C 280,320 620,240 820,380" fill="none" stroke="url(#goldFlightGrad1)" stroke-width="1.25"></path>
+      <path class="migration-arc-fast" d="M 120,820 C 340,480 750,310 980,420" fill="none" stroke="url(#goldFlightGrad2)" stroke-width="1"></path>
+      <path class="migration-arc" d="M 1450,780 C 1200,380 880,260 680,340" fill="none" stroke="url(#goldFlightGrad1)" stroke-width="1.2"></path>
+      <path class="migration-arc-fast" d="M 1520,260 C 1180,180 840,290 620,440" fill="none" stroke="url(#goldFlightGrad2)" stroke-width="0.85"></path>
+
+      <!-- Waypoint Indicators -->
+      <g opacity="0.32" transform="translate(680, 340)">
+        <circle cx="0" cy="0" fill="#E5C158" r="3.5"></circle>
+        <circle cx="0" cy="0" fill="none" r="12" stroke="#D4AF37" stroke-dasharray="2 3" stroke-width="0.75"></circle>
+        <text fill="#F3E5AB" font-family="'Plus Jakarta Sans', monospace" font-size="9" font-weight="600" letter-spacing="0.12em" x="14" y="3">WAS • 38.9072° N, 77.0369° W</text>
+      </g>
+      <g opacity="0.32" transform="translate(820, 380)">
+        <circle cx="0" cy="0" fill="#E5C158" r="3.5"></circle>
+        <circle cx="0" cy="0" fill="none" r="12" stroke="#D4AF37" stroke-dasharray="2 3" stroke-width="0.75"></circle>
+        <text fill="#F3E5AB" font-family="'Plus Jakarta Sans', monospace" font-size="9" font-weight="600" letter-spacing="0.12em" x="14" y="3">YYZ • 43.6532° N, 79.3832° W</text>
+      </g>
+      <g opacity="0.25" transform="translate(980, 420)">
+        <circle cx="0" cy="0" fill="#E5C158" r="2.5"></circle>
+        <text fill="#CBD5E1" font-family="'Plus Jakarta Sans', monospace" font-size="8" letter-spacing="0.12em" x="10" y="3">JFK • 40.7128° N</text>
+      </g>
+      <g opacity="0.25" transform="translate(480, 290)">
+        <circle cx="0" cy="0" fill="#E5C158" r="2.5"></circle>
+        <text fill="#CBD5E1" font-family="'Plus Jakarta Sans', monospace" font-size="8" letter-spacing="0.12em" x="-120" y="3">YVR • 49.2827° N</text>
+      </g>
+    </svg>
+
+    <!-- Procedural Particles Canvas -->
+    <canvas id="particles-canvas"></canvas>
+  </div>
+
+  <!-- Custom Titanium & Champagne Gold Cursor -->
+  <div class="custom-cursor-dot" id="cursor-dot"></div>
+  <div class="custom-cursor-outline" id="cursor-outline"></div>
+  <div class="custom-cursor-label" id="cursor-label">ENTER</div>
+
+  <!-- ==================== HEADER ==================== -->
+  <header class="relative z-40 w-full px-6 md:px-12 pt-6 md:pt-8 flex items-center justify-between pointer-events-auto">
+    <!-- Brand Mark & Logo -->
+    <a href="#" onclick="showScene('hero'); return false;" aria-label="VIRAS VISA Home" class="group flex items-center gap-3.5 focus:outline-none focus:ring-1 focus:ring-[#D4AF37]/50 rounded-lg p-1.5 transition-all duration-300" id="header-brand-logo">
+      <div class="relative w-9 h-9 md:w-10 md:h-10 rounded-xl bg-gradient-to-br from-zinc-900 to-black border p-[1px] flex items-center justify-center transition-all duration-500" style="border-color: rgba(212, 175, 55, 0.45); box-shadow: 0 10px 25px -5px rgba(0,0,0,0.8), 0 0 15px rgba(212, 175, 55, 0.15);">
+        <!-- SVG geometric mark of North Star / Global Compass wings -->
+        <svg class="w-5 h-5 group-hover:scale-110 transition-transform duration-500" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" style="color: #E5C158;" viewBox="0 0 24 24">
+          <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+        </svg>
+        <div class="absolute inset-0 rounded-xl bg-[#D4AF37]/10 blur-sm opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+      </div>
+      <div class="flex flex-col text-left rtl:text-right">
+        <span class="font-display font-bold text-sm md:text-base text-white group-hover:text-slate-100 transition-colors" id="header-brand-name">
+          VIRAS <span class="font-light" style="background: linear-gradient(rgb(243, 229, 171) 0%, rgb(212, 175, 55) 60%, rgb(170, 119, 28) 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">VISA</span>
+        </span>
+        <span class="text-[9px] uppercase tracking-[0.28em] rtl:tracking-wider text-zinc-500 font-medium" data-i18n="tagline">U.S. & CANADA IMMIGRATION</span>
+      </div>
+    </a>
+
+    <!-- Header Right Controls: Download ZIP + Back + Language Selector -->
+    <div class="flex items-center gap-2.5 sm:gap-3">
+      <!-- Download ZIP Button (GitHub Pages Ready) -->
+      <a href="./viras-visa-github-pages.zip" download="viras-visa-github-pages.zip" onclick="triggerDownloadZip();" class="group flex items-center gap-2 px-3 sm:px-4 py-1.5 sm:py-2 rounded-full bg-gradient-to-r from-zinc-900/90 to-zinc-950/95 hover:from-[#D4AF37]/20 hover:to-[#AA771C]/20 border border-[#D4AF37]/50 text-xs font-semibold text-[#F3E5AB] hover:text-white transition-all duration-300 backdrop-blur-xl shadow-[0_0_15px_rgba(212,175,55,0.15)] focus:outline-none" title="Download deployable ZIP for GitHub Pages">
+        <svg class="w-3.5 h-3.5 text-[#E5C158] group-hover:scale-110 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+        </svg>
+        <span class="hidden sm:inline" data-i18n="downloadZipBtn">Download ZIP</span>
+      </a>
+
+      <!-- Back to Previous trigger -->
+      <button id="nav-back-button" onclick="goBack()" class="hidden items-center gap-2 px-3.5 py-1.5 rounded-full bg-zinc-900/80 hover:bg-zinc-800/95 border text-xs font-medium text-zinc-300 hover:text-white transition-all duration-300 backdrop-blur-md focus:outline-none" style="border-color: rgba(212, 175, 55, 0.35);">
+        <svg class="w-3.5 h-3.5 rtl:rotate-180 text-[#E5C158]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path d="M15 19l-7-7 7-7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+        </svg>
+        <span data-i18n="back">Back</span>
+      </button>
+
+      <!-- Elegant Glass Language Selector Dropdown -->
+      <div class="relative" id="lang-menu-wrapper">
+        <button id="lang-trigger-btn" aria-haspopup="true" aria-expanded="false" class="group flex items-center gap-2.5 px-3.5 sm:px-4 py-1.5 sm:py-2 rounded-full bg-zinc-900/70 hover:bg-zinc-800/90 border backdrop-blur-xl transition-all duration-300 focus:outline-none focus:ring-1 focus:ring-[#D4AF37]/50" style="border-color: rgba(212, 175, 55, 0.4); box-shadow: rgba(0, 0, 0, 0.6) 0px 4px 20px, rgba(212, 175, 55, 0.08) 0px 0px 10px inset;">
+          <!-- Globe icon -->
+          <svg class="w-3.5 h-3.5 text-[#E5C158] group-hover:text-white transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <circle cx="12" cy="12" r="10" stroke-width="1.6"></circle>
+            <path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" stroke-width="1.6"></path>
+          </svg>
+          <span class="text-xs font-semibold text-zinc-200 group-hover:text-white transition-colors" id="current-lang-label">English</span>
+          <svg class="w-3 h-3 text-zinc-400 transition-transform duration-300" fill="none" id="lang-arrow" stroke="currentColor" viewBox="0 0 24 24">
+            <path d="M19 9l-7 7-7-7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+          </svg>
+        </button>
+
+        <!-- Dropdown Menu items -->
+        <div class="absolute right-0 rtl:right-auto rtl:left-0 mt-2 w-44 rounded-2xl bg-zinc-950/95 border backdrop-blur-2xl p-1.5 transition-all duration-300 origin-top-right rtl:origin-top-left z-50 opacity-0 scale-95 pointer-events-none" id="lang-dropdown" style="border-color: rgba(212, 175, 55, 0.35); box-shadow: 0 20px 40px rgba(0,0,0,0.9), 0 0 25px rgba(212, 175, 55, 0.12);">
+          <div class="px-3 py-1.5 text-[10px] uppercase font-bold tracking-widest rtl:tracking-normal text-[#C5A059] border-b border-zinc-800/80 mb-1" data-i18n="selectLanguage">Select Language</div>
+          <button class="w-full flex items-center justify-between px-3 py-2 text-xs font-medium text-zinc-300 hover:text-white hover:bg-white/10 rounded-xl transition-colors lang-option text-white bg-white/10" data-lang="en" onclick="setLanguage('en')">
+            <span>English</span>
+            <span class="text-[10px] text-[#E5C158] font-mono active-check">✓</span>
+          </button>
+          <button class="w-full flex items-center justify-between px-3 py-2 text-xs font-medium text-zinc-300 hover:text-white hover:bg-white/10 rounded-xl transition-colors lang-option" data-lang="fa" onclick="setLanguage('fa')">
+            <span class="font-rtl text-sm">فارسی</span>
+            <span class="text-[10px] text-[#E5C158] font-mono active-check hidden">✓</span>
+          </button>
+          <button class="w-full flex items-center justify-between px-3 py-2 text-xs font-medium text-zinc-300 hover:text-white hover:bg-white/10 rounded-xl transition-colors lang-option" data-lang="ar" onclick="setLanguage('ar')">
+            <span class="font-rtl text-sm">العربية</span>
+            <span class="text-[10px] text-[#E5C158] font-mono active-check hidden">✓</span>
+          </button>
+          <button class="w-full flex items-center justify-between px-3 py-2 text-xs font-medium text-zinc-300 hover:text-white hover:bg-white/10 rounded-xl transition-colors lang-option" data-lang="fr" onclick="setLanguage('fr')">
+            <span>Français</span>
+            <span class="text-[10px] text-[#E5C158] font-mono active-check hidden">✓</span>
+          </button>
+          <button class="w-full flex items-center justify-between px-3 py-2 text-xs font-medium text-zinc-300 hover:text-white hover:bg-white/10 rounded-xl transition-colors lang-option" data-lang="de" onclick="setLanguage('de')">
+            <span>Deutsch</span>
+            <span class="text-[10px] text-[#E5C158] font-mono active-check hidden">✓</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ==================== MAIN APPLICATION STAGE (FOUR CONVERTED STITCH SCREENS) ==================== -->
+  <main class="relative z-20 flex-1 w-full max-w-7xl mx-auto flex items-center justify-center px-4 sm:px-6 md:px-12 py-6">
+
+    <!-- ==================== SCREEN 1: THE HERO EXPERIENCE ==================== -->
+    <section class="scene-view w-full flex flex-col items-center justify-center text-center scene-visible" id="hero-scene">
+      <!-- Interactive Frame around VIRAS VISA in Obsidian & Champagne Gold -->
+      <div class="relative group p-1 sm:p-1.5 rounded-[2.5rem] md:rounded-[3.2rem] max-w-3xl w-full transition-transform duration-700 ease-out border border-zinc-800/80" id="interactive-hero-frame">
+        <!-- Inner Smoked Obsidian Glass Card Container -->
+        <div class="relative z-10 px-8 py-12 sm:px-14 sm:py-16 md:px-20 md:py-20 rounded-[2.4rem] md:rounded-[3.1rem] bg-[#0A0C0E]/85 border backdrop-blur-2xl flex flex-col items-center justify-center overflow-hidden" style="border-color: rgba(212, 175, 55, 0.35); box-shadow: 0 35px 80px -15px rgba(0,0,0,0.95), 0 0 45px -10px rgba(212, 175, 55, 0.18);">
+          <!-- Inner Ambient Champagne Gold Spotlight -->
+          <div class="absolute inset-0 pointer-events-none opacity-35" id="frame-spotlight"></div>
+
+          <!-- Top subtle Champagne Gold badge -->
+          <div class="relative inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-zinc-900/80 border text-[10px] sm:text-xs font-semibold tracking-[0.2em] rtl:tracking-normal uppercase mb-6 sm:mb-8 backdrop-blur-md" style="border-color: rgba(212, 175, 55, 0.45); color: #F3E5AB; box-shadow: 0 0 15px rgba(212, 175, 55, 0.12), inset 0 0 10px rgba(212, 175, 55, 0.08);">
+            <span class="w-1.5 h-1.5 rounded-full animate-pulse" style="background-color: #E5C158; box-shadow: 0 0 10px rgba(229, 193, 88, 0.9);"></span>
+            <span data-i18n="badgeTitle">Premier Immigration Advisory</span>
+          </div>
+
+          <!-- The Central Identity: VIRAS VISA with letter/word reveal -->
+          <h1 class="relative font-display font-extrabold text-5xl sm:text-6xl text-white drop-shadow-[0_10px_35px_rgba(0,0,0,0.95)] mb-4 leading-none select-none flex items-center justify-center" id="hero-title" style="font-size: clamp(3.2rem, 6.2vw, 5.2rem); letter-spacing: -0.02em; white-space: nowrap; line-height: 1.15;">
+            <span class="inline-flex items-center tracking-tight mr-3 sm:mr-5">
+              <span class="reveal-char viras-char-first font-extrabold">V</span>
+              <span class="reveal-char viras-char-first font-extrabold">I</span>
+              <span class="reveal-char viras-char-first font-extrabold">R</span>
+              <span class="reveal-char viras-char-first font-extrabold">A</span>
+              <span class="reveal-char viras-char-first font-extrabold">S</span>
+            </span>
+            <span class="inline-flex items-center tracking-tight">
+              <span class="reveal-char viras-char-gold font-light">V</span>
+              <span class="reveal-char viras-char-gold font-light">I</span>
+              <span class="reveal-char viras-char-gold font-light">S</span>
+              <span class="reveal-char viras-char-gold font-light">A</span>
+            </span>
+          </h1>
+
+          <!-- Subtitle / Tagline -->
+          <p class="max-w-xl text-base sm:text-lg text-zinc-300 font-medium leading-relaxed mb-10 text-center" data-i18n="heroSubtitle" id="hero-subtitle">
+            Migrate Your Dreams. Guided by licensed U.S. and Canadian legal counsel every step of the journey.
+          </p>
+
+          <!-- Central Call To Action Button (Gold Obsidian Glass) -->
+          <div class="flex flex-col items-center gap-4">
+            <button id="begin-journey-btn" onclick="showScene('destination')" data-hover-label="ENTER" class="group/btn relative inline-flex items-center justify-center gap-3.5 px-8 sm:px-10 py-4 rounded-full border text-white font-medium text-sm sm:text-base tracking-wider rtl:tracking-normal backdrop-blur-xl transition-all duration-500 focus:outline-none focus:ring-2 focus:ring-[#D4AF37]/50" style="border-color: rgba(212, 175, 55, 0.6); background: linear-gradient(rgba(28, 26, 22, 0.95) 0%, rgba(13, 14, 18, 0.95) 100%); box-shadow: rgba(0, 0, 0, 0.8) 0px 15px 35px, rgba(212, 175, 55, 0.2) 0px 0px 25px, rgba(255, 255, 255, 0.15) 0px 1px 0px inset;">
+              <span class="font-semibold tracking-wide rtl:tracking-normal" data-i18n="btnBegin">Choose Your Destination</span>
+              <svg class="w-4 h-4 text-[#E5C158] group-hover/btn:translate-x-1.5 rtl:group-hover/btn:-translate-x-1.5 rtl:rotate-180 transition-all duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path d="M14 5l7 7m0 0l-7 7m7-7H3" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+              </svg>
+              <!-- Hover halo -->
+              <div class="absolute -inset-1 rounded-full blur-md opacity-0 group-hover/btn:opacity-100 transition-opacity duration-500 -z-10" style="background-color: rgba(212, 175, 55, 0.28);"></div>
+            </button>
+            <span class="text-xs text-zinc-500 tracking-widest rtl:tracking-normal font-mono uppercase" data-i18n="instructionPrompt">Select destination country to begin your journey</span>
+          </div>
+
+          <!-- Micro specs footer within frame -->
+          <div class="mt-8 pt-6 border-t border-zinc-800/80 w-full flex items-center justify-around text-zinc-400 text-[11px] sm:text-xs">
+            <div class="flex items-center gap-2">
+              <span class="w-1.5 h-1.5 rounded-full" style="background-color: #E5C158; box-shadow: 0 0 8px rgba(229, 193, 88, 0.8);"></span>
+              <span data-i18n="specUsa">U.S. EB & Non-Immigrant Categories</span>
+            </div>
+            <div class="w-px h-3 bg-zinc-800"></div>
+            <div class="flex items-center gap-2">
+              <span class="w-1.5 h-1.5 rounded-full bg-zinc-400"></span>
+              <span data-i18n="specCanada">Express Entry & Start-Up Visa</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== SCREEN 2: DESTINATION SELECTION (PORTAL DISCOVERY) ==================== -->
+    <section class="scene-view w-full flex flex-col items-center justify-center scene-hidden" id="destination-scene">
+      <!-- Stage Heading -->
+      <div class="text-center max-w-2xl mb-8 sm:mb-12">
+        <span class="inline-block px-3 py-1 rounded-full bg-zinc-900/90 border text-[11px] tracking-[0.25em] rtl:tracking-wider font-mono uppercase mb-3 shadow-inner" data-i18n="gatewaySelection" style="border-color: rgba(212, 175, 55, 0.4); color: rgb(243, 229, 171); box-shadow: rgba(212, 175, 55, 0.12) 0px 0px 15px;">PORTAL DISCOVERY</span>
+        <h2 class="font-display font-extrabold text-3xl sm:text-4xl md:text-5xl text-white tracking-tight leading-tight" data-i18n="chooseDestination" id="destination-heading">Choose Your Destination</h2>
+        <p class="text-zinc-400 text-xs sm:text-sm mt-2 font-light" data-i18n="destinationSubtitle">Select North America's premier jurisdictional corridors to explore accredited legal & residency programs.</p>
+      </div>
+
+      <!-- The Two Cinematic Portals (USA vs CANADA) -->
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8 w-full max-w-5xl">
+        <!-- ================= PANEL 1: UNITED STATES ================= -->
+        <div id="portal-card-usa" onclick="showScene('usa')" data-hover-label="UNITED STATES" class="portal-card group relative h-[380px] sm:h-[440px] md:h-[490px] rounded-[2.2rem] overflow-hidden border bg-[#040914]/90 cursor-pointer p-7 sm:p-9 flex flex-col justify-between transition-all duration-700 hover:border-blue-400/60 hover:shadow-2xl ease-out hover:scale-[1.02] hover:-translate-y-2" style="border-color: rgba(30, 64, 175, 0.45); box-shadow: rgba(0, 0, 0, 0.95) 0px 25px 60px -15px, rgba(14, 52, 160, 0.28) 0px 0px 30px -5px;">
+          <!-- Background Imagery -->
+          <div class="portal-bg absolute inset-0 bg-cover bg-center transition-all duration-700 ease-out opacity-25 group-hover:opacity-40" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCKatnTOUyzL_61zNBbTXZ4kXezRnaM2FU0BC-goes9iQ1z-fOyiKJE-u7q9PEWIe9gPUVRBb_qV9d4m01Afej2gbZ-faofWHopymTDCefCvFfTSTV0ytbQGP06balQj6740Dl0g3TlAbiwVWGqavhWdjZPo8uHSxMvzjWgwoXKVFD6ti6l8z8HNjFAfwMGirqU7oZDib0imLTqTcLFS2ScEVKMRmkVRKiv24HsQXBTE0WJMxlzw4C1IQ'); background-size: cover; background-position: center; filter: grayscale(10%) contrast(120%) brightness(0.65);"></div>
+          
+          <!-- Animated Flag Wave Stripes -->
+          <div class="absolute inset-[-12%] pointer-events-none select-none mix-blend-screen opacity-15 group-hover:opacity-25 transition-opacity duration-700" style="background: repeating-linear-gradient(-24deg, rgba(191, 10, 48, 0.45) 0px, rgba(191, 10, 48, 0.45) 24px, rgba(255, 255, 255, 0.18) 24px, rgba(255, 255, 255, 0.18) 48px, rgba(10, 37, 95, 0.5) 48px, rgba(10, 37, 95, 0.5) 72px); filter: blur(1.5px);"></div>
+          <div class="absolute inset-0 bg-gradient-to-t from-[#040812] via-[#081226]/80 to-[#03060d]/60 pointer-events-none"></div>
+
+          <!-- Radial Glow Accents -->
+          <div class="absolute -top-16 -left-16 w-64 h-64 rounded-full bg-blue-600/15 blur-3xl pointer-events-none group-hover:bg-blue-500/25 transition-all duration-700"></div>
+          <div class="absolute -bottom-16 -right-16 w-64 h-64 rounded-full bg-rose-600/15 blur-3xl pointer-events-none group-hover:bg-rose-500/25 transition-all duration-700"></div>
+
+          <!-- Twinkling Constellation Stars -->
+          <svg class="absolute top-3 right-3 rtl:right-auto rtl:left-3 w-36 h-28 pointer-events-none opacity-40 group-hover:opacity-80 transition-opacity duration-500" fill="currentColor" viewBox="0 0 120 90">
+            <circle class="text-white" cx="22" cy="18" r="1.8"></circle>
+            <circle class="text-rose-300" cx="48" cy="14" r="1.4"></circle>
+            <circle class="text-blue-200" cx="76" cy="22" r="1.6"></circle>
+            <circle class="text-white" cx="36" cy="38" r="1.5"></circle>
+            <circle class="text-sky-200" cx="64" cy="42" r="2"></circle>
+            <polygon class="text-white/90" points="64,36 66,41 71,41 67,44 69,49 64,46 59,49 61,44 57,41 62,41"></polygon>
+          </svg>
+
+          <!-- Top Meta Row -->
+          <div class="relative z-10 flex items-center justify-between">
+            <span class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-gradient-to-r from-blue-950/90 via-slate-900/90 to-rose-950/80 border border-blue-400/30 text-[10px] font-mono tracking-widest rtl:tracking-wider text-slate-100 shadow-[0_0_12px_rgba(59,130,246,0.25)]">
+              <span class="flex items-center gap-1">
+                <span class="w-1.5 h-1.5 rounded-full bg-[#BF0A30] animate-pulse"></span>
+                <span class="w-1 h-1 rounded-full bg-white"></span>
+                <span class="w-1.5 h-1.5 rounded-full bg-[#002868]"></span>
+              </span>
+              JURISDICTION 01
+            </span>
+            <div class="flex items-center gap-2">
+              <span class="inline-flex items-center px-2 py-0.5 rounded text-[10px] font-mono font-bold tracking-widest text-blue-300 bg-blue-950/60 border border-blue-500/30 group-hover:border-blue-400/60 transition-colors">USA</span>
+              <span class="font-display font-light text-2xl text-slate-400 group-hover:text-blue-300 transition-colors drop-shadow-[0_0_8px_rgba(59,130,246,0.5)]">50★</span>
+            </div>
+          </div>
+
+          <!-- Bottom Info -->
+          <div class="relative z-10 flex flex-col">
+            <div class="flex flex-col mb-2">
+              <h3 class="font-display font-extrabold text-3xl sm:text-4xl text-white tracking-tight drop-shadow-[0_2px_14px_rgba(0,0,0,0.8)]" data-i18n="usaTitle">UNITED STATES</h3>
+              <div class="h-[2px] w-24 rounded-full mt-2 group-hover:w-44 transition-all duration-700 shadow-[0_0_8px_rgba(191,10,48,0.7)] bg-gradient-to-r from-[#BF0A30] via-white to-[#002868]"></div>
+            </div>
+            <p class="text-xs sm:text-sm text-slate-300/90 font-light line-clamp-2 mb-5 leading-relaxed" data-i18n="usaDesc">
+              EB-1 Extraordinary Ability, EB-2 NIW, Investor Visas (EB-5), Corporate L-1, and specialized tech & business immigration.
+            </p>
+            <div class="flex items-center justify-between pt-4 border-t border-slate-800/80">
+              <div class="flex gap-2 text-[10px] font-mono text-slate-200">
+                <span class="px-2 py-0.5 rounded bg-blue-950/70 border border-blue-500/40 text-blue-200 shadow-[0_0_6px_rgba(59,130,246,0.3)]">EB-1 / NIW</span>
+                <span class="px-2 py-0.5 rounded bg-slate-900/80 border border-slate-700/80">O-1 / L-1</span>
+                <span class="px-2 py-0.5 rounded bg-rose-950/60 border border-rose-500/40 text-rose-200 shadow-[0_0_6px_rgba(225,29,72,0.3)]">EB-5</span>
+              </div>
+              <div class="relative flex items-center gap-2 px-3 py-1.5 rounded-full bg-gradient-to-r from-blue-950/70 via-slate-900 to-rose-950/70 border border-blue-400/40 group-hover:border-rose-400/70 text-xs font-semibold tracking-wider rtl:tracking-normal text-slate-200 group-hover:text-white transition-all shadow-[0_0_15px_rgba(59,130,246,0.25)]">
+                <span class="text-[11px] uppercase tracking-widest rtl:tracking-normal font-mono" data-i18n="explore">EXPLORE</span>
+                <svg class="portal-arrow w-4 h-4 transition-transform duration-300 rtl:rotate-180 text-blue-300 group-hover:text-rose-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path d="M14 5l7 7m0 0l-7 7m7-7H3" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ================= PANEL 2: CANADA ================= -->
+        <div id="portal-card-canada" onclick="showScene('canada')" data-hover-label="CANADA" class="portal-card group relative h-[380px] sm:h-[440px] md:h-[490px] rounded-[2.2rem] overflow-hidden border bg-[#0e0507]/90 cursor-pointer p-7 sm:p-9 flex flex-col justify-between transition-all duration-700 hover:border-rose-400/60 hover:shadow-2xl ease-out hover:scale-[1.02] hover:-translate-y-2" style="border-color: rgba(191, 10, 48, 0.45); box-shadow: rgba(0, 0, 0, 0.95) 0px 25px 60px -15px, rgba(191, 10, 48, 0.22) 0px 0px 30px -5px;">
+          <!-- Background Image -->
+          <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuCsWOlAlCFTkzyilUhTQn7Z-m2lAiBa_2yYoWQquVYFKKk8wFydSyGOc7ATRA4ffLV_EjhhPaAFyrc5tjFcpORxUtYoNpdEm_8fzIY3ix1r903DXVKXAxaW1RFJxZsxYfcvM1o4jRP_SM14Y0q58Ry7RZYAGvWBBv3Mg7Q1AyGa7puxc2GLGQW0_7Uy70vxFcY8dsxkst5sPuuYseQatPWCF_Hk_vvklJWGHPlmoH9mLXOQpNdMX5tJWw" alt="Canada Flag Texture" class="absolute inset-0 w-full h-full object-cover opacity-35 mix-blend-luminosity group-hover:opacity-55 group-hover:scale-105 transition-all duration-700 pointer-events-none rounded-[28px]">
+          <div class="absolute inset-0 bg-gradient-to-t from-black via-black/80 to-[#3b0d11]/40 rounded-[28px] pointer-events-none"></div>
+
+          <!-- Glow Accents -->
+          <div class="absolute -top-16 -right-16 w-64 h-64 rounded-full bg-rose-600/15 blur-3xl pointer-events-none group-hover:bg-rose-500/25 transition-all duration-700"></div>
+          <div class="absolute -bottom-16 -left-16 w-64 h-64 rounded-full bg-rose-950/60 blur-3xl pointer-events-none group-hover:bg-rose-600/15 transition-all duration-700"></div>
+
+          <!-- Maple Leaf Silhouette -->
+          <svg class="absolute top-3 right-3 rtl:right-auto rtl:left-3 w-36 h-28 pointer-events-none opacity-35 group-hover:opacity-75 transition-opacity duration-500 text-rose-300" fill="currentColor" viewBox="0 0 100 100">
+            <path class="text-rose-400/80 drop-shadow-[0_0_10px_rgba(225,29,72,0.8)]" d="M50 15 L52 24 L59 21 L56 29 L65 31 L61 37 L72 44 L66 48 L71 54 L62 55 L63 60 L54 57 L52 70 L48 70 L46 57 L37 60 L38 55 L29 54 L34 48 L28 44 L39 37 L35 31 L44 29 L41 21 L48 24 Z"></path>
+          </svg>
+
+          <!-- Top Meta Row -->
+          <div class="relative z-10 flex items-center justify-between">
+            <span class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-gradient-to-r from-rose-950/90 via-slate-900/90 to-rose-950/80 border border-rose-500/40 text-[10px] font-mono tracking-widest rtl:tracking-wider text-slate-100 shadow-[0_0_12px_rgba(225,29,72,0.25)]">
+              <span class="flex items-center gap-1">
+                <span class="w-1.5 h-1.5 rounded-full bg-[#BF0A30] animate-pulse"></span>
+                <span class="w-1 h-1 rounded-full bg-white"></span>
+                <span class="w-1.5 h-1.5 rounded-full bg-[#BF0A30]"></span>
+              </span>
+              JURISDICTION 02
+            </span>
+            <div class="flex items-center gap-2">
+              <span class="inline-flex items-center px-2 py-0.5 rounded text-[10px] font-mono font-bold tracking-widest text-rose-300 bg-rose-950/60 border border-rose-500/40 group-hover:border-rose-400/70 transition-colors">CAN</span>
+              <span class="font-display font-light text-2xl text-slate-400 group-hover:text-rose-300 transition-colors drop-shadow-[0_0_8px_rgba(191,10,48,0.7)] flex items-center gap-1">
+                10
+                <svg class="w-5 h-5 text-rose-400 inline-block" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M12 2l1.2 3.6 3.5-.7-1.5 3.3 3.8.8-2.6 2.4 2.8 2.6-3.7.4.5 3.6-3-2.2-1 6.2h-2l-1-6.2-3 2.2.5-3.6-3.7-.4 2.8-2.6-2.6-2.4 3.8-.8-1.5-3.3 3.5.7z"></path>
+                </svg>
+              </span>
+            </div>
+          </div>
+
+          <!-- Bottom Info -->
+          <div class="relative z-10 flex flex-col">
+            <div class="flex flex-col mb-2">
+              <h3 class="font-display font-extrabold text-3xl sm:text-4xl text-white tracking-tight drop-shadow-[0_2px_14px_rgba(0,0,0,0.8)]" data-i18n="canadaTitle">CANADA</h3>
+              <div class="h-[2px] w-24 rounded-full mt-2 group-hover:w-44 transition-all duration-700 shadow-[0_0_8px_rgba(191,10,48,0.7)] bg-gradient-to-r from-[#BF0A30] via-white to-[#BF0A30]"></div>
+            </div>
+            <p class="text-xs sm:text-sm text-slate-300/90 font-light line-clamp-2 mb-5 leading-relaxed" data-i18n="canadaDesc">
+              Express Entry (FSW/CEC), Provincial Nominee Programs (PNP), Start-Up Visa, Intra-Company Transferees (ICT), and Study Permits.
+            </p>
+            <div class="flex items-center justify-between pt-4 border-t border-slate-800/80">
+              <div class="flex gap-2 text-[10px] font-mono text-slate-200">
+                <span class="px-2 py-0.5 rounded bg-rose-950/60 border border-rose-500/40 text-rose-200 shadow-[0_0_6px_rgba(225,29,72,0.3)]">Express Entry</span>
+                <span class="px-2 py-0.5 rounded bg-slate-900/80 border border-slate-700/80">PNP</span>
+                <span class="px-2 py-0.5 rounded bg-rose-950/60 border border-rose-500/40 text-rose-200 shadow-[0_0_6px_rgba(225,29,72,0.3)]">Start-Up Visa</span>
+              </div>
+              <div class="relative flex items-center gap-2 px-3 py-1.5 rounded-full bg-gradient-to-r from-rose-950/80 via-slate-900 to-rose-950/70 border border-rose-500/40 group-hover:border-rose-400/70 text-xs font-semibold tracking-wider rtl:tracking-normal text-slate-200 group-hover:text-white transition-all shadow-[0_0_15px_rgba(191,10,48,0.25)]">
+                <span class="text-[11px] uppercase tracking-widest rtl:tracking-normal font-mono" data-i18n="explore">EXPLORE</span>
+                <svg class="portal-arrow w-4 h-4 transition-transform duration-300 rtl:rotate-180 text-rose-300 group-hover:text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path d="M14 5l7 7m0 0l-7 7m7-7H3" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== SCREEN 3: UNITED STATES IMMIGRATION CORRIDOR ==================== -->
+    <section class="scene-view w-full flex flex-col items-center scene-hidden max-w-6xl" id="usa-scene">
+      <!-- Breadcrumb Navigation Bar -->
+      <div class="w-full flex items-center justify-between mb-6 pb-4 border-b border-zinc-800/80">
+        <button onclick="showScene('destination')" class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-blue-950/40 hover:bg-blue-900/60 border border-blue-500/30 text-xs text-blue-200 hover:text-white transition-all duration-300">
+          <svg class="w-4 h-4 rtl:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path d="M15 19l-7-7 7-7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+          </svg>
+          <span data-i18n="backToDestinations">Back to Destinations</span>
+        </button>
+        <span class="px-3 py-1 rounded-full bg-blue-950/60 border border-blue-500/40 text-[11px] font-mono text-blue-300" data-i18n="usaHeaderBadge">U.S. JURISDICTION • 50 STATES</span>
+      </div>
+
+      <!-- Main Headline -->
+      <div class="text-center max-w-3xl mb-8">
+        <h2 class="font-display font-extrabold text-3xl sm:text-4xl text-white tracking-tight leading-tight" data-i18n="usaHeaderTitle">United States Elite Immigration Gateway</h2>
+        <p class="text-zinc-400 text-sm mt-3 leading-relaxed" data-i18n="usaHeaderDesc">Direct legal pathways to permanent residency (Green Card) and business visas managed by accredited AILA attorneys.</p>
+      </div>
+
+      <!-- Program Navigation Tabs -->
+      <div class="w-full flex flex-wrap items-center justify-center gap-2 sm:gap-3 mb-8">
+        <button id="tab-btn-eb1" onclick="switchUsaTab('eb1')" class="usa-tab-btn px-4 py-2.5 rounded-full border text-xs sm:text-sm font-semibold transition-all bg-blue-600/30 border-blue-400 text-white shadow-[0_0_15px_rgba(59,130,246,0.3)]" data-i18n="tabEb1">
+          EB-1 (Extraordinary Ability)
+        </button>
+        <button id="tab-btn-niw" onclick="switchUsaTab('niw')" class="usa-tab-btn px-4 py-2.5 rounded-full border text-xs sm:text-sm font-semibold transition-all bg-zinc-900/60 border-zinc-800 text-zinc-400 hover:text-white" data-i18n="tabNiw">
+          EB-2 NIW (National Interest Waiver)
+        </button>
+        <button id="tab-btn-eb5" onclick="switchUsaTab('eb5')" class="usa-tab-btn px-4 py-2.5 rounded-full border text-xs sm:text-sm font-semibold transition-all bg-zinc-900/60 border-zinc-800 text-zinc-400 hover:text-white" data-i18n="tabEb5">
+          EB-5 (Immigrant Investor)
+        </button>
+        <button id="tab-btn-nonimmigrant" onclick="switchUsaTab('nonimmigrant')" class="usa-tab-btn px-4 py-2.5 rounded-full border text-xs sm:text-sm font-semibold transition-all bg-zinc-900/60 border-zinc-800 text-zinc-400 hover:text-white" data-i18n="tabNonImmigrant">
+          O-1 & L-1 (Talent & Corporate)
+        </button>
+      </div>
+
+      <!-- Tab Content 1: EB-1 -->
+      <div id="usa-content-eb1" class="usa-tab-content w-full grid grid-cols-1 lg:grid-cols-3 gap-6">
+        <div class="lg:col-span-2 p-6 sm:p-8 rounded-[2rem] bg-[#0A0D14]/90 border border-blue-500/30 backdrop-blur-xl">
+          <div class="flex items-center gap-3 mb-4">
+            <span class="w-3 h-3 rounded-full bg-blue-500"></span>
+            <h3 class="text-xl sm:text-2xl font-bold text-white">EB-1A Extraordinary Ability & EB-1B Outstanding Researchers</h3>
+          </div>
+          <p class="text-zinc-300 text-sm leading-relaxed mb-6">
+            The premier green card category without the requirement of a job offer or Labor Certification (PERM). Designed for individuals who have risen to the very top of their field across sciences, arts, education, business, or athletics.
+          </p>
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-6">
+            <div class="p-4 rounded-xl bg-blue-950/30 border border-blue-500/20">
+              <span class="text-xs text-blue-300 font-mono">Self-Petition Advantage</span>
+              <p class="text-sm font-semibold text-white mt-1">Direct permanent residency for principal applicant, spouse, and children under 21</p>
+            </div>
+            <div class="p-4 rounded-xl bg-blue-950/30 border border-blue-500/20">
+              <span class="text-xs text-blue-300 font-mono">Premium Processing</span>
+              <p class="text-sm font-semibold text-white mt-1">Formal USCIS adjudication decision within 15 calendar days</p>
+            </div>
+          </div>
+          <h4 class="text-sm font-bold text-white mb-3">Core Evidentiary Criteria (Meet 3 of 10):</h4>
+          <ul class="text-xs text-zinc-300 space-y-2 list-disc list-inside">
+            <li>Receipt of nationally or internationally recognized prizes or awards</li>
+            <li>Membership in associations requiring outstanding achievements</li>
+            <li>Published scholarly material in professional journals and high citation count</li>
+            <li>Participation as a judge of the work of others in the same field</li>
+            <li>Original scientific, scholarly, or business contributions of major significance</li>
+            <li>Command of a high salary or significantly high remuneration</li>
+          </ul>
+        </div>
+        <!-- Right Action Box -->
+        <div class="p-6 sm:p-8 rounded-[2rem] bg-gradient-to-b from-blue-950/40 via-zinc-900/90 to-black border border-blue-400/30 flex flex-col justify-between">
+          <div>
+            <span class="text-xs font-mono text-blue-300 uppercase tracking-widest">Attorney Profile Review</span>
+            <h4 class="text-lg font-bold text-white mt-1 mb-3">Is your profile qualified for EB-1?</h4>
+            <p class="text-xs text-zinc-400 leading-relaxed mb-6">VIRAS VISA counsel conducts meticulous evaluation of your citations, patents, peer reviews, and executive achievements.</p>
+            <div class="space-y-3 mb-6 text-xs text-zinc-300">
+              <div class="flex items-center gap-2">
+                <span class="text-blue-400">✓</span>
+                <span>Citation & Google Scholar impact audit</span>
+              </div>
+              <div class="flex items-center gap-2">
+                <span class="text-blue-400">✓</span>
+                <span>Independent recommendation letters strategy</span>
+              </div>
+              <div class="flex items-center gap-2">
+                <span class="text-blue-400">✓</span>
+                <span>USCIS Kazarian legal brief framework</span>
+              </div>
+            </div>
+          </div>
+          <button onclick="openConsultationModal('usa')" class="w-full py-3.5 rounded-full bg-blue-600 hover:bg-blue-500 text-white font-semibold text-xs transition-colors shadow-[0_0_20px_rgba(59,130,246,0.4)]" data-i18n="bookConsultation">
+            Request Attorney Review
+          </button>
+        </div>
+      </div>
+
+      <!-- Tab Content 2: EB-2 NIW -->
+      <div id="usa-content-niw" class="usa-tab-content w-full grid grid-cols-1 lg:grid-cols-3 gap-6 hidden">
+        <div class="lg:col-span-2 p-6 sm:p-8 rounded-[2rem] bg-[#0A0D14]/90 border border-blue-500/30 backdrop-blur-xl">
+          <div class="flex items-center gap-3 mb-4">
+            <span class="w-3 h-3 rounded-full bg-sky-400"></span>
+            <h3 class="text-xl sm:text-2xl font-bold text-white">EB-2 National Interest Waiver (NIW)</h3>
+          </div>
+          <p class="text-zinc-300 text-sm leading-relaxed mb-6">
+            An exceptional path to a U.S. Green Card for individuals with an advanced degree (Master's/Ph.D.) or exceptional ability whose proposed endeavor holds substantial merit and national importance to the United States.
+          </p>
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-6">
+            <div class="p-4 rounded-xl bg-blue-950/30 border border-blue-500/20">
+              <span class="text-xs text-sky-300 font-mono">Matter of Dhanasar 3-Prong Test</span>
+              <p class="text-sm font-semibold text-white mt-1">Proving substantial merit, national importance, and applicant readiness to advance the endeavor</p>
+            </div>
+            <div class="p-4 rounded-xl bg-blue-950/30 border border-blue-500/20">
+              <span class="text-xs text-sky-300 font-mono">No Employer Sponsor Required</span>
+              <p class="text-sm font-semibold text-white mt-1">Complete waiver of the lengthy PERM labor certification process</p>
+            </div>
+          </div>
+          <h4 class="text-sm font-bold text-white mb-2">USCIS High Priority Fields:</h4>
+          <p class="text-xs text-zinc-400 leading-relaxed">Artificial intelligence, semiconductors, biotechnology, clean energy, quantum computing, aerospace, supply chain resilience, and advanced healthcare innovations.</p>
+        </div>
+        <div class="p-6 sm:p-8 rounded-[2rem] bg-gradient-to-b from-blue-950/40 via-zinc-900/90 to-black border border-blue-400/30 flex flex-col justify-between">
+          <div>
+            <span class="text-xs font-mono text-sky-300 uppercase tracking-widest">Premium Processing Available</span>
+            <h4 class="text-lg font-bold text-white mt-1 mb-3">45-Day Official Adjudication</h4>
+            <p class="text-xs text-zinc-400 leading-relaxed mb-6">Form I-140 Premium Processing delivers an official USCIS response within 45 calendar days.</p>
+          </div>
+          <button onclick="openConsultationModal('usa')" class="w-full py-3.5 rounded-full bg-blue-600 hover:bg-blue-500 text-white font-semibold text-xs transition-colors shadow-[0_0_20px_rgba(59,130,246,0.4)]" data-i18n="bookConsultation">
+            Evaluate NIW Viability
+          </button>
+        </div>
+      </div>
+
+      <!-- Tab Content 3: EB-5 -->
+      <div id="usa-content-eb5" class="usa-tab-content w-full grid grid-cols-1 lg:grid-cols-3 gap-6 hidden">
+        <div class="lg:col-span-2 p-6 sm:p-8 rounded-[2rem] bg-[#0A0D14]/90 border border-blue-500/30 backdrop-blur-xl">
+          <div class="flex items-center gap-3 mb-4">
+            <span class="w-3 h-3 rounded-full bg-rose-500"></span>
+            <h3 class="text-xl sm:text-2xl font-bold text-white">EB-5 Immigrant Investor Program</h3>
+          </div>
+          <p class="text-zinc-300 text-sm leading-relaxed mb-6">
+            Under the EB-5 Reform and Integrity Act (RIA), invest $800,000 in a qualified Targeted Employment Area (TEA) project or $1,050,000 in non-TEA projects to secure U.S. Green Cards for the investor and their immediate family.
+          </p>
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <div class="p-4 rounded-xl bg-blue-950/30 border border-blue-500/20">
+              <span class="text-xs text-rose-300 font-mono">Concurrent Filing Option</span>
+              <p class="text-sm font-semibold text-white mt-1">Simultaneous filing of I-526E and I-485 for rapid work authorization (EAD) and travel permits</p>
+            </div>
+            <div class="p-4 rounded-xl bg-blue-950/30 border border-blue-500/20">
+              <span class="text-xs text-rose-300 font-mono">Reserved Visa Set-Asides</span>
+              <p class="text-sm font-semibold text-white mt-1">20% quota for Rural projects exempt from backlog waiting lines</p>
+            </div>
+          </div>
+        </div>
+        <div class="p-6 sm:p-8 rounded-[2rem] bg-gradient-to-b from-blue-950/40 via-zinc-900/90 to-black border border-blue-400/30 flex flex-col justify-between">
+          <div>
+            <span class="text-xs font-mono text-rose-300 uppercase tracking-widest">Vetted Regional Centers</span>
+            <h4 class="text-lg font-bold text-white mt-1 mb-3">Institutional Capital Security</h4>
+            <p class="text-xs text-zinc-400 leading-relaxed mb-6">Direct access to tier-1 Regional Center developers with 100% principal repayment history and Green Card approvals.</p>
+          </div>
+          <button onclick="openConsultationModal('usa')" class="w-full py-3.5 rounded-full bg-blue-600 hover:bg-blue-500 text-white font-semibold text-xs transition-colors shadow-[0_0_20px_rgba(59,130,246,0.4)]" data-i18n="bookConsultation">
+            Consult EB-5 Investment Desk
+          </button>
+        </div>
+      </div>
+
+      <!-- Tab Content 4: O-1 & L-1 -->
+      <div id="usa-content-nonimmigrant" class="usa-tab-content w-full grid grid-cols-1 lg:grid-cols-3 gap-6 hidden">
+        <div class="lg:col-span-2 p-6 sm:p-8 rounded-[2rem] bg-[#0A0D14]/90 border border-blue-500/30 backdrop-blur-xl">
+          <div class="flex items-center gap-3 mb-4">
+            <span class="w-3 h-3 rounded-full bg-amber-400"></span>
+            <h3 class="text-xl sm:text-2xl font-bold text-white">O-1 Extraordinary Ability & L-1 Corporate Transfer</h3>
+          </div>
+          <p class="text-zinc-300 text-sm leading-relaxed mb-6">
+            Elite dual-intent business visas permitting direct transition to permanent residency. Ideal for startup founders, tech talent, and multinational corporate executives establishing U.S. branches.
+          </p>
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <div class="p-4 rounded-xl bg-blue-950/30 border border-blue-500/20">
+              <span class="text-xs text-amber-300 font-mono">O-1A / O-1B Visa</span>
+              <p class="text-sm font-semibold text-white mt-1">No annual quota cap, no lottery, and unlimited extensions</p>
+            </div>
+            <div class="p-4 rounded-xl bg-blue-950/30 border border-blue-500/20">
+              <span class="text-xs text-amber-300 font-mono">L-1A Executive Transfer</span>
+              <p class="text-sm font-semibold text-white mt-1">Direct corporate bridge to EB-1C Multinational Manager Green Card</p>
+            </div>
+          </div>
+        </div>
+        <div class="p-6 sm:p-8 rounded-[2rem] bg-gradient-to-b from-blue-950/40 via-zinc-900/90 to-black border border-blue-400/30 flex flex-col justify-between">
+          <div>
+            <span class="text-xs font-mono text-amber-300 uppercase tracking-widest">U.S. Corporate Setup</span>
+            <h4 class="text-lg font-bold text-white mt-1 mb-3">Enterprise Immigration Architecture</h4>
+            <p class="text-xs text-zinc-400 leading-relaxed mb-6">Company incorporation, USCIS-compliant business plans, and multi-year executive work permits.</p>
+          </div>
+          <button onclick="openConsultationModal('usa')" class="w-full py-3.5 rounded-full bg-blue-600 hover:bg-blue-500 text-white font-semibold text-xs transition-colors shadow-[0_0_20px_rgba(59,130,246,0.4)]" data-i18n="bookConsultation">
+            Explore Corporate Mobility
+          </button>
+        </div>
+      </div>
+
+      <!-- Interactive USCIS Eligibility Calculator -->
+      <div class="w-full mt-8 p-6 sm:p-8 rounded-[2rem] bg-gradient-to-r from-blue-950/30 via-zinc-900/80 to-blue-950/30 border border-blue-500/30">
+        <h3 class="text-lg font-bold text-white mb-2 flex items-center gap-2">
+          <svg class="w-5 h-5 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+          </svg>
+          <span data-i18n="calcTitle">Eligibility Score Estimator</span>
+        </h3>
+        <p class="text-xs text-zinc-400 mb-6">Select your qualifications to calculate your initial case viability for EB-1, NIW, or EB-5 pathways.</p>
+        
+        <form onsubmit="calculateUsaEligibility(event)" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+          <div>
+            <label class="block text-xs text-zinc-300 mb-1.5 font-medium">Highest Degree Obtained:</label>
+            <select id="usa-calc-degree" class="w-full px-3 py-2 rounded-xl bg-zinc-950 border border-zinc-700 text-xs text-white focus:outline-none focus:border-blue-400">
+              <option value="phd">Ph.D. or Terminal Degree</option>
+              <option value="master">Master's Degree</option>
+              <option value="bachelor">Bachelor's Degree</option>
+              <option value="other">Other / High School</option>
+            </select>
+          </div>
+          <div>
+            <label class="block text-xs text-zinc-300 mb-1.5 font-medium">Citations or Industry Awards:</label>
+            <input type="number" id="usa-calc-citations" placeholder="e.g. 45" class="w-full px-3 py-2 rounded-xl bg-zinc-950 border border-zinc-700 text-xs text-white focus:outline-none focus:border-blue-400">
+          </div>
+          <div>
+            <label class="block text-xs text-zinc-300 mb-1.5 font-medium">Years of Experience:</label>
+            <input type="number" id="usa-calc-experience" placeholder="e.g. 5" class="w-full px-3 py-2 rounded-xl bg-zinc-950 border border-zinc-700 text-xs text-white focus:outline-none focus:border-blue-400">
+          </div>
+          <div>
+            <label class="block text-xs text-zinc-300 mb-1.5 font-medium">Capital for Investment:</label>
+            <select id="usa-calc-investment" class="w-full px-3 py-2 rounded-xl bg-zinc-950 border border-zinc-700 text-xs text-white focus:outline-none focus:border-blue-400">
+              <option value="no">Under $500,000</option>
+              <option value="yes">$800,000+ (EB-5 Ready)</option>
+            </select>
+          </div>
+          <div class="sm:col-span-2 lg:col-span-4 mt-2 flex items-center justify-between">
+            <button type="submit" class="px-6 py-2.5 rounded-full bg-blue-600 hover:bg-blue-500 text-white font-semibold text-xs transition-colors" data-i18n="submitAssessment">
+              Calculate Eligibility
+            </button>
+            <div id="usa-calc-result" class="hidden flex items-center gap-4">
+              <span id="usa-calc-text" class="text-xs text-white"></span>
+              <div id="usa-calc-programs" class="flex gap-2"></div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!-- ==================== SCREEN 4: CANADA IMMIGRATION CORRIDOR ==================== -->
+    <section class="scene-view w-full flex flex-col items-center scene-hidden max-w-6xl" id="canada-scene">
+      <!-- Breadcrumb Navigation Bar -->
+      <div class="w-full flex items-center justify-between mb-6 pb-4 border-b border-zinc-800/80">
+        <button onclick="showScene('destination')" class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-rose-950/40 hover:bg-rose-900/60 border border-rose-500/30 text-xs text-rose-200 hover:text-white transition-all duration-300">
+          <svg class="w-4 h-4 rtl:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path d="M15 19l-7-7 7-7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+          </svg>
+          <span data-i18n="backToDestinations">Back to Destinations</span>
+        </button>
+        <span class="px-3 py-1 rounded-full bg-rose-950/60 border border-rose-500/40 text-[11px] font-mono text-rose-300" data-i18n="canadaHeaderBadge">CANADIAN JURISDICTION • 10 PROVINCES</span>
+      </div>
+
+      <!-- Main Headline -->
+      <div class="text-center max-w-3xl mb-8">
+        <h2 class="font-display font-extrabold text-3xl sm:text-4xl text-white tracking-tight leading-tight" data-i18n="canadaHeaderTitle">Canada Federal & Provincial Gateway</h2>
+        <p class="text-zinc-400 text-sm mt-3 leading-relaxed" data-i18n="canadaHeaderDesc">Federal Permanent Residency, Express Entry, and Provincial Nominee pathways under accredited CICC legal representation.</p>
+      </div>
+
+      <!-- Program Navigation Tabs -->
+      <div class="w-full flex flex-wrap items-center justify-center gap-2 sm:gap-3 mb-8">
+        <button id="canada-tab-btn-express" onclick="switchCanadaTab('express')" class="canada-tab-btn px-4 py-2.5 rounded-full border text-xs sm:text-sm font-semibold transition-all bg-rose-600/30 border-rose-400 text-white shadow-[0_0_15px_rgba(225,29,72,0.3)]" data-i18n="tabExpressEntry">
+          Express Entry (FSW / CEC)
+        </button>
+        <button id="canada-tab-btn-pnp" onclick="switchCanadaTab('pnp')" class="canada-tab-btn px-4 py-2.5 rounded-full border text-xs sm:text-sm font-semibold transition-all bg-zinc-900/60 border-zinc-800 text-zinc-400 hover:text-white" data-i18n="tabPnp">
+          Provincial Nominees (PNP)
+        </button>
+        <button id="canada-tab-btn-suv" onclick="switchCanadaTab('suv')" class="canada-tab-btn px-4 py-2.5 rounded-full border text-xs sm:text-sm font-semibold transition-all bg-zinc-900/60 border-zinc-800 text-zinc-400 hover:text-white" data-i18n="tabSuv">
+          Start-Up Visa (SUV)
+        </button>
+        <button id="canada-tab-btn-ict" onclick="switchCanadaTab('ict')" class="canada-tab-btn px-4 py-2.5 rounded-full border text-xs sm:text-sm font-semibold transition-all bg-zinc-900/60 border-zinc-800 text-zinc-400 hover:text-white" data-i18n="tabIct">
+          Corporate Transfer (ICT & C11)
+        </button>
+      </div>
+
+      <!-- Tab Content 1: Express Entry -->
+      <div id="canada-content-express" class="canada-tab-content w-full grid grid-cols-1 lg:grid-cols-3 gap-6">
+        <div class="lg:col-span-2 p-6 sm:p-8 rounded-[2rem] bg-[#120709]/90 border border-rose-500/30 backdrop-blur-xl">
+          <div class="flex items-center gap-3 mb-4">
+            <span class="w-3 h-3 rounded-full bg-rose-500"></span>
+            <h3 class="text-xl sm:text-2xl font-bold text-white">Federal Express Entry (FSW / CEC)</h3>
+          </div>
+          <p class="text-zinc-300 text-sm leading-relaxed mb-6">
+            Canada's flagship merit-based immigration management system. Candidates are ranked via the Comprehensive Ranking System (CRS) based on age, education, official language test results, and skilled work experience.
+          </p>
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-6">
+            <div class="p-4 rounded-xl bg-rose-950/30 border border-rose-500/20">
+              <span class="text-xs text-rose-300 font-mono">Targeted Category-Based Draws</span>
+              <p class="text-sm font-semibold text-white mt-1">Priority invitations for STEM professionals, healthcare workers, French speakers, and engineering talent</p>
+            </div>
+            <div class="p-4 rounded-xl bg-rose-950/30 border border-rose-500/20">
+              <span class="text-xs text-rose-300 font-mono">Direct PR Timeline</span>
+              <p class="text-sm font-semibold text-white mt-1">Permanent Residence visa issued within 6 months of receiving an Invitation to Apply (ITA)</p>
+            </div>
+          </div>
+          <h4 class="text-sm font-bold text-white mb-2">Key Drivers for CRS Maximization:</h4>
+          <p class="text-xs text-zinc-400 leading-relaxed">Attaining CLB 9+ on IELTS General/CELPIP, French proficiency bonus (+50 points), ECA degree credential evaluation by WES, and verified TEER skilled work categories.</p>
+        </div>
+        <div class="p-6 sm:p-8 rounded-[2rem] bg-gradient-to-b from-rose-950/40 via-zinc-900/90 to-black border border-rose-400/30 flex flex-col justify-between">
+          <div>
+            <span class="text-xs font-mono text-rose-300 uppercase tracking-widest">CRS Score Audit</span>
+            <h4 class="text-lg font-bold text-white mt-1 mb-3">What is your current draw competitiveness?</h4>
+            <p class="text-xs text-zinc-400 leading-relaxed mb-6">Receive expert point calculations and an actionable roadmap to increase your pool score.</p>
+          </div>
+          <button onclick="openConsultationModal('canada')" class="w-full py-3.5 rounded-full bg-rose-600 hover:bg-rose-500 text-white font-semibold text-xs transition-colors shadow-[0_0_20px_rgba(225,29,72,0.4)]" data-i18n="bookConsultation">
+            Request Attorney Review
+          </button>
+        </div>
+      </div>
+
+      <!-- Tab Content 2: PNP -->
+      <div id="canada-content-pnp" class="canada-tab-content w-full grid grid-cols-1 lg:grid-cols-3 gap-6 hidden">
+        <div class="lg:col-span-2 p-6 sm:p-8 rounded-[2rem] bg-[#120709]/90 border border-rose-500/30 backdrop-blur-xl">
+          <div class="flex items-center gap-3 mb-4">
+            <span class="w-3 h-3 rounded-full bg-red-400"></span>
+            <h3 class="text-xl sm:text-2xl font-bold text-white">Provincial Nominee Programs (PNP)</h3>
+          </div>
+          <p class="text-zinc-300 text-sm leading-relaxed mb-6">
+            A Provincial Nomination grants a massive +600 points boost to your Federal Express Entry profile, practically guaranteeing an Invitation to Apply (ITA) in the subsequent national draw.
+          </p>
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <div class="p-4 rounded-xl bg-rose-950/30 border border-rose-500/20">
+              <span class="text-xs text-rose-300 font-mono">Ontario OINP Tech Stream</span>
+              <p class="text-sm font-semibold text-white mt-1">Direct nominations for software developers, AI architects, and data engineers in Toronto & Waterloo</p>
+            </div>
+            <div class="p-4 rounded-xl bg-rose-950/30 border border-rose-500/20">
+              <span class="text-xs text-rose-300 font-mono">British Columbia & Alberta</span>
+              <p class="text-sm font-semibold text-white mt-1">BC PNP Tech weekly draws and Alberta Accelerated Tech Pathway (AAIP)</p>
+            </div>
+          </div>
+        </div>
+        <div class="p-6 sm:p-8 rounded-[2rem] bg-gradient-to-b from-rose-950/40 via-zinc-900/90 to-black border border-rose-400/30 flex flex-col justify-between">
+          <div>
+            <span class="text-xs font-mono text-rose-300 uppercase tracking-widest">+600 Points Guarantee</span>
+            <h4 class="text-lg font-bold text-white mt-1 mb-3">Provincial Strategy Alignment</h4>
+            <p class="text-xs text-zinc-400 leading-relaxed mb-6">Match your NOC code to the specific province with the highest probability of nomination.</p>
+          </div>
+          <button onclick="openConsultationModal('canada')" class="w-full py-3.5 rounded-full bg-rose-600 hover:bg-rose-500 text-white font-semibold text-xs transition-colors shadow-[0_0_20px_rgba(225,29,72,0.4)]" data-i18n="bookConsultation">
+            Explore Provincial Streams
+          </button>
+        </div>
+      </div>
+
+      <!-- Tab Content 3: Start-Up Visa -->
+      <div id="canada-content-suv" class="canada-tab-content w-full grid grid-cols-1 lg:grid-cols-3 gap-6 hidden">
+        <div class="lg:col-span-2 p-6 sm:p-8 rounded-[2rem] bg-[#120709]/90 border border-rose-500/30 backdrop-blur-xl">
+          <div class="flex items-center gap-3 mb-4">
+            <span class="w-3 h-3 rounded-full bg-rose-500"></span>
+            <h3 class="text-xl sm:text-2xl font-bold text-white">Canada Start-Up Visa (SUV) Program</h3>
+          </div>
+          <p class="text-zinc-300 text-sm leading-relaxed mb-6">
+            Direct Permanent Residence for innovative entrepreneurs securing a Letter of Support (LOS) from designated Canadian venture capital funds, angel groups, or business incubators.
+          </p>
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <div class="p-4 rounded-xl bg-rose-950/30 border border-rose-500/20">
+              <span class="text-xs text-rose-300 font-mono">Up to 5 Co-Founders Per Startup</span>
+              <p class="text-sm font-semibold text-white mt-1">Permanent residency for all key team members and their families simultaneously</p>
+            </div>
+            <div class="p-4 rounded-xl bg-rose-950/30 border border-rose-500/20">
+              <span class="text-xs text-rose-300 font-mono">Flexible Criteria</span>
+              <p class="text-sm font-semibold text-white mt-1">No rigid age limits and moderate language threshold (CLB 5)</p>
+            </div>
+          </div>
+        </div>
+        <div class="p-6 sm:p-8 rounded-[2rem] bg-gradient-to-b from-rose-950/40 via-zinc-900/90 to-black border border-rose-400/30 flex flex-col justify-between">
+          <div>
+            <span class="text-xs font-mono text-rose-300 uppercase tracking-widest">Incubator Acceptance</span>
+            <h4 class="text-lg font-bold text-white mt-1 mb-3">Pitch Deck & Incubator Access</h4>
+            <p class="text-xs text-zinc-400 leading-relaxed mb-6">Preparation of business plans, pitch coaching, and official Letter of Support acquisition.</p>
+          </div>
+          <button onclick="openConsultationModal('canada')" class="w-full py-3.5 rounded-full bg-rose-600 hover:bg-rose-500 text-white font-semibold text-xs transition-colors shadow-[0_0_20px_rgba(225,29,72,0.4)]" data-i18n="bookConsultation">
+            Submit Startup Pitch
+          </button>
+        </div>
+      </div>
+
+      <!-- Tab Content 4: ICT -->
+      <div id="canada-content-ict" class="canada-tab-content w-full grid grid-cols-1 lg:grid-cols-3 gap-6 hidden">
+        <div class="lg:col-span-2 p-6 sm:p-8 rounded-[2rem] bg-[#120709]/90 border border-rose-500/30 backdrop-blur-xl">
+          <div class="flex items-center gap-3 mb-4">
+            <span class="w-3 h-3 rounded-full bg-pink-400"></span>
+            <h3 class="text-xl sm:text-2xl font-bold text-white">Intra-Company Transferee (ICT & C11 Work Permits)</h3>
+          </div>
+          <p class="text-zinc-300 text-sm leading-relaxed mb-6">
+            LMIA-exempt work permit (C12) allowing foreign parent enterprises to establish a Canadian subsidiary and transfer executives, managers, and specialized knowledge personnel. Includes spousal open work permits and free public schooling for dependents.
+          </p>
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <div class="p-4 rounded-xl bg-rose-950/30 border border-rose-500/20">
+              <span class="text-xs text-pink-300 font-mono">Direct Bridge to PR</span>
+              <p class="text-sm font-semibold text-white mt-1">+200 bonus points in Express Entry after one year of operating in Canada</p>
+            </div>
+            <div class="p-4 rounded-xl bg-rose-950/30 border border-rose-500/20">
+              <span class="text-xs text-pink-300 font-mono">C11 Entrepreneur Work Permit</span>
+              <p class="text-sm font-semibold text-white mt-1">Specialized authorization for self-employed individuals with significant economic impact</p>
+            </div>
+          </div>
+        </div>
+        <div class="p-6 sm:p-8 rounded-[2rem] bg-gradient-to-b from-rose-950/40 via-zinc-900/90 to-black border border-rose-400/30 flex flex-col justify-between">
+          <div>
+            <span class="text-xs font-mono text-pink-300 uppercase tracking-widest">Branch Expansion</span>
+            <h4 class="text-lg font-bold text-white mt-1 mb-3">Canadian Corporate Deployment</h4>
+            <p class="text-xs text-zinc-400 leading-relaxed mb-6">Subsidiary incorporation, banking setup, and corporate immigration compliance.</p>
+          </div>
+          <button onclick="openConsultationModal('canada')" class="w-full py-3.5 rounded-full bg-rose-600 hover:bg-rose-500 text-white font-semibold text-xs transition-colors shadow-[0_0_20px_rgba(225,29,72,0.4)]" data-i18n="bookConsultation">
+            Consult Corporate Mobility
+          </button>
+        </div>
+      </div>
+
+      <!-- Interactive Canada CRS / Assessment Calculator -->
+      <div class="w-full mt-8 p-6 sm:p-8 rounded-[2rem] bg-gradient-to-r from-rose-950/30 via-zinc-900/80 to-rose-950/30 border border-rose-500/30">
+        <h3 class="text-lg font-bold text-white mb-2 flex items-center gap-2">
+          <svg class="w-5 h-5 text-rose-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+          </svg>
+          <span data-i18n="calcTitle">Eligibility Score Estimator</span> (CRS)
+        </h3>
+        <p class="text-xs text-zinc-400 mb-6">Estimate your Express Entry Comprehensive Ranking System (CRS) score and evaluation status.</p>
+
+        <form onsubmit="calculateCanadaScore(event)" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4">
+          <div>
+            <label class="block text-xs text-zinc-300 mb-1.5 font-medium">Applicant Age:</label>
+            <input type="number" id="can-calc-age" value="29" min="18" max="60" class="w-full px-3 py-2 rounded-xl bg-zinc-950 border border-zinc-700 text-xs text-white focus:outline-none focus:border-rose-400">
+          </div>
+          <div>
+            <label class="block text-xs text-zinc-300 mb-1.5 font-medium">Education Level:</label>
+            <select id="can-calc-education" class="w-full px-3 py-2 rounded-xl bg-zinc-950 border border-zinc-700 text-xs text-white focus:outline-none focus:border-rose-400">
+              <option value="master">Master's Degree or Ph.D.</option>
+              <option value="bachelor_two">Two or More Post-Secondary Degrees</option>
+              <option value="bachelor">Bachelor's Degree (3+ Years)</option>
+              <option value="diploma">Diploma / Certificate</option>
+            </select>
+          </div>
+          <div>
+            <label class="block text-xs text-zinc-300 mb-1.5 font-medium">English Level (CLB):</label>
+            <select id="can-calc-clb" class="w-full px-3 py-2 rounded-xl bg-zinc-950 border border-zinc-700 text-xs text-white focus:outline-none focus:border-rose-400">
+              <option value="9">CLB 9+ (IELTS 8L, 7R, 7W, 7S)</option>
+              <option value="8">CLB 8 (IELTS 7.5L, 6.5 others)</option>
+              <option value="7">CLB 7 (IELTS 6.0 in all)</option>
+              <option value="6">CLB 6 or lower</option>
+            </select>
+          </div>
+          <div>
+            <label class="block text-xs text-zinc-300 mb-1.5 font-medium">Work Experience:</label>
+            <input type="number" id="can-calc-exp" value="3" min="1" max="15" placeholder="Years" class="w-full px-3 py-2 rounded-xl bg-zinc-950 border border-zinc-700 text-xs text-white focus:outline-none focus:border-rose-400">
+          </div>
+          <div>
+            <label class="block text-xs text-zinc-300 mb-1.5 font-medium">French Proficiency (B2+):</label>
+            <select id="can-calc-french" class="w-full px-3 py-2 rounded-xl bg-zinc-950 border border-zinc-700 text-xs text-white focus:outline-none focus:border-rose-400">
+              <option value="no">No</option>
+              <option value="yes">Yes (NCLC 7+ Category Bonus)</option>
+            </select>
+          </div>
+          <div class="sm:col-span-2 lg:col-span-5 mt-2 flex flex-col sm:flex-row items-center justify-between gap-4">
+            <button type="submit" class="px-6 py-2.5 rounded-full bg-rose-600 hover:bg-rose-500 text-white font-semibold text-xs transition-colors" data-i18n="submitAssessment">
+              Calculate Eligibility
+            </button>
+            <div id="can-calc-result" class="hidden flex-1 flex flex-col sm:flex-row items-center gap-4 text-xs">
+              <span id="can-calc-text" class="text-white"></span>
+              <span id="can-calc-verdict" class="text-zinc-300"></span>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!-- Route feedback modal/toast in Obsidian Glass -->
+    <div id="routing-toast" class="fixed bottom-12 left-1/2 -translate-x-1/2 z-50 flex items-center gap-3 px-6 py-3 rounded-full bg-zinc-900/95 border text-xs text-zinc-200 transform transition-all duration-500 backdrop-blur-xl shadow-2xl opacity-0 translate-y-3 pointer-events-none" style="border-color: rgba(212, 175, 55, 0.5);">
+      <span class="w-2 h-2 rounded-full bg-[#E5C158] animate-ping"></span>
+      <span id="routing-toast-text">Ready for dedicated route: /usa</span>
+    </div>
+
+    <!-- Consultation Modal -->
+    <div id="consultation-modal" class="fixed inset-0 z-50 hidden items-center justify-center p-4 bg-black/80 backdrop-blur-md">
+      <div class="relative w-full max-w-lg p-6 sm:p-8 rounded-[2.5rem] bg-[#0A0C0E] border border-[#D4AF37]/40 shadow-2xl">
+        <button onclick="closeConsultationModal()" class="absolute top-6 right-6 rtl:right-auto rtl:left-6 text-zinc-400 hover:text-white p-2">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path d="M6 18L18 6M6 6l12 12" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+          </svg>
+        </button>
+
+        <div class="mb-6">
+          <span class="text-xs font-mono text-[#D4AF37] uppercase">Attorney Consultation</span>
+          <h3 class="text-xl font-bold text-white mt-1">Request Legal Profile Evaluation</h3>
+          <p class="text-xs text-zinc-400 mt-1">Submit your details. A senior immigration counsel will review your profile.</p>
+        </div>
+
+        <form onsubmit="handleConsultationSubmit(event)" class="space-y-4">
+          <div>
+            <label class="block text-xs text-zinc-300 mb-1">Full Name:</label>
+            <input type="text" id="modal-input-name" required placeholder="e.g. Dr. Arash Amani" class="w-full px-4 py-2.5 rounded-xl bg-zinc-900/80 border border-zinc-700 text-xs text-white focus:outline-none focus:border-[#D4AF37]">
+          </div>
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+            <div>
+              <label class="block text-xs text-zinc-300 mb-1">Email Address:</label>
+              <input type="email" id="modal-input-email" required placeholder="name@domain.com" class="w-full px-4 py-2.5 rounded-xl bg-zinc-900/80 border border-zinc-700 text-xs text-white focus:outline-none focus:border-[#D4AF37]">
+            </div>
+            <div>
+              <label class="block text-xs text-zinc-300 mb-1">Phone / WhatsApp:</label>
+              <input type="tel" id="modal-input-phone" required placeholder="+1 (555) 019-2834" class="w-full px-4 py-2.5 rounded-xl bg-zinc-900/80 border border-zinc-700 text-xs text-white focus:outline-none focus:border-[#D4AF37]">
+            </div>
+          </div>
+          <div>
+            <label class="block text-xs text-zinc-300 mb-1">Target Corridor & Program:</label>
+            <select id="modal-destination-select" class="w-full px-4 py-2.5 rounded-xl bg-zinc-900/80 border border-zinc-700 text-xs text-white focus:outline-none focus:border-[#D4AF37]">
+              <option value="usa">United States (EB-1, NIW, EB-5, O-1, L-1)</option>
+              <option value="canada">Canada (Express Entry, Start-Up Visa, PNP, ICT)</option>
+            </select>
+          </div>
+          <div>
+            <label class="block text-xs text-zinc-300 mb-1">Brief Overview of Credentials:</label>
+            <textarea rows="3" placeholder="Degree, citation count, years of experience, or business concept..." class="w-full px-4 py-2.5 rounded-xl bg-zinc-900/80 border border-zinc-700 text-xs text-white focus:outline-none focus:border-[#D4AF37]"></textarea>
+          </div>
+          <button type="submit" class="w-full py-3.5 rounded-full bg-gradient-to-r from-[#D4AF37] to-[#AA771C] text-black font-bold text-xs hover:brightness-110 transition-all shadow-[0_0_20px_rgba(212,175,55,0.4)]">
+            Submit Assessment Request
+          </button>
+        </form>
+      </div>
+    </div>
+
+  </main>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="relative z-30 w-full px-6 md:px-12 py-5 flex items-center justify-between text-[11px] text-zinc-400 font-mono pointer-events-auto border-t border-zinc-900">
+    <div class="flex items-center gap-3">
+      <span class="w-1.5 h-1.5 rounded-full shadow-[0_0_6px_rgba(255,255,255,0.7)]" style="background-color: #E5C158; box-shadow: 0 0 8px rgba(229, 193, 88, 0.85);"></span>
+      <span data-i18n="statusOnline">LICENSED • ACCREDITED ADVISORY</span>
+    </div>
+    <div class="hidden sm:flex items-center gap-6 text-zinc-500">
+      <span class="flex items-center gap-1.5">
+        <span class="text-[#C5A059]">TORONTO</span> • <span class="text-[#C5A059]">WASHINGTON D.C.</span>
+      </span>
+      <span id="footer-copyright">© 2025 VIRAS VISA</span>
+    </div>
+  </footer>
+
+  <!-- Application Logic -->
+  <script src="./assets/app.js"></script>
+</body>
+</html>
